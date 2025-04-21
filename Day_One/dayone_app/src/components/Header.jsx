@@ -11,9 +11,6 @@ function Header() {
     <div>
       <header className="navbar">
         <h1 className="logo">MyApp</h1>
-        <button className="menu-btn" onClick={toggleSidebar}>
-          &#9776; {/* Hamburger Icon */}
-        </button>
         <nav className="desktop-nav">
           <ul>
             <li><a href="#">Home</a></li>
@@ -21,6 +18,9 @@ function Header() {
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
+          <button className="menu-btn" onClick={toggleSidebar}>
+          &#9776; {/* Hamburger Icon */}
+        </button>
         </nav>
       </header>
 

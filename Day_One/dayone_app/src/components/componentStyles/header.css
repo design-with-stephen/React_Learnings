@@ -7,6 +7,11 @@
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
+
+}
+.desktop-nav{
+    display: flex;
+    gap: 2rem;
 }
 .navbar ul{
     display: flex;
